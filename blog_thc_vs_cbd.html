@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>THC vs CBD - Smoke & Bloom</title>
+  <meta name="description" content="Descubre qué diferencia al THC del CBD, qué efectos reales tienen, qué dice la ciencia y cómo evitar los mitos más comunes."/>
+  <link rel="stylesheet" href="css/index.css"/>
+  <link rel="stylesheet" href="css/components.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+  <style>
+    .material-symbols-outlined{font-variation-settings:'FILL' 0,'wght' 400,'GRAD' 0,'opsz' 24}
+    
+    .blog-hero {
+      position: relative;
+      width: 100%;
+      height: 60vh;
+      min-height: 450px;
+      margin-top: 60px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      background-color: var(--color-gray-900);
+    }
+    .blog-hero__img {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      object-fit: cover;
+    }
+    .blog-hero__overlay {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.1) 100%);
+    }
+    .blog-hero__content {
+      position: relative;
+      z-index: 1;
+      max-width: 800px;
+      text-align: center;
+      padding: 0 var(--space-4) var(--space-6) var(--space-4);
+      color: #ffffff;
+    }
+    
+    .blog-layout {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: var(--space-6) var(--space-4);
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      gap: var(--space-6);
+      align-items: start;
+    }
+    @media (max-width: 992px) {
+      .blog-layout { grid-template-columns: 1fr; }
+      .blog-toc { display: none; }
+    }
+    .blog-toc {
+      position: sticky;
+      top: 100px;
+      border-right: 1px solid var(--color-gray-200);
+      padding-right: var(--space-4);
+    }
+    .blog-toc-title {
+      font-size: 0.875rem; text-transform: uppercase;
+      letter-spacing: 0.05em; color: var(--color-gray-900);
+      margin-bottom: var(--space-4); font-weight: 600;
+    }
+    .blog-toc ul { list-style: none; padding: 0; margin: 0; }
+    .blog-toc li { margin-bottom: var(--space-3); }
+    .blog-toc a {
+      color: var(--color-gray-500); text-decoration: none;
+      font-size: 0.95rem; transition: color 0.2s;
+      display: block; line-height: 1.4;
+    }
+    .blog-toc a:hover { color: var(--color-accent); }
+    
+    .blog-article p { margin-bottom: var(--space-4); line-height: 1.8; font-size: 1.125rem; }
+    .blog-article h2 { margin-top: var(--space-6); margin-bottom: var(--space-3); scroll-margin-top: 100px; }
+    .blog-quote {
+      border-left: 4px solid var(--color-accent);
+      padding: 1.5rem; margin: var(--space-5) 0;
+      font-size: 1.25rem; font-style: italic;
+      background-color: var(--color-gray-100);
+      border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    }
+    .blog-myths {
+      background-color: var(--color-gray-100);
+      padding: var(--space-5); border-radius: var(--radius-lg);
+      margin: var(--space-6) 0;
+    }
+    .blog-meta {
+      display: flex; justify-content: space-between; align-items: center;
+      padding-bottom: var(--space-4); margin-bottom: var(--space-5);
+      border-bottom: 1px solid var(--color-gray-200); grid-column: 1 / -1;
+    }
+  </style>
+  <link rel="canonical" href="https://smokebloom.store/blog_thc_vs_cbd"/>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar" id="navbar">
+  <div class="navbar__inner">
+    <a class="navbar__brand" href="/">Smoke &amp; Bloom</a>
+    <div class="navbar__links">
+      <a class="navbar__link" href="/" data-i18n="nav.home">Inicio</a>
+      <a class="navbar__link" href="tienda" data-i18n="nav.shop">Tienda</a>
+      <a class="navbar__link" href="accesorios" data-i18n="nav.accessories">Accesorios</a>
+      <a class="navbar__link" href="ropa" data-i18n="nav.apparel">Ropa</a>
+      <a class="navbar__link" href="lifestyle" data-i18n="nav.lifestyle">Lifestyle</a>
+      <a class="navbar__link active" href="guias" data-i18n="nav.guides">Guías</a>
+      <a class="navbar__link" href="sobre-nosotros" data-i18n="nav.about">Nosotros</a>
+    </div>
+    <div class="navbar__actions">
+      <span class="material-symbols-outlined navbar__search">search</span>
+      <span class="navbar__lang" style="cursor:pointer; font-size:0.75rem; font-weight:600;">ES/EN</span>
+      <div class="navbar__hamburger" id="hamburger"><span></span><span></span><span></span></div>
+    </div>
+  </div>
+  <div class="navbar__mobile-menu" id="mobileMenu">
+    <a class="navbar__link" href="/" data-i18n="nav.home">Inicio</a>
+    <a class="navbar__link" href="tienda" data-i18n="nav.shop">Tienda</a>
+    <a class="navbar__link" href="accesorios" data-i18n="nav.accessories">Accesorios</a>
+    <a class="navbar__link" href="ropa" data-i18n="nav.apparel">Ropa</a>
+    <a class="navbar__link" href="lifestyle" data-i18n="nav.lifestyle">Lifestyle</a>
+    <a class="navbar__link active" href="guias" data-i18n="nav.guides">Guías</a>
+    <a class="navbar__link" href="sobre-nosotros" data-i18n="nav.about">Nosotros</a>
+  </div>
+</nav>
+
+<!-- BLOG HERO -->
+<header class="blog-hero">
+  <img src="assets/images/blog_thc_cbd.png" alt="THC vs CBD" class="blog-hero__img" />
+  <div class="blog-hero__overlay"></div>
+  <div class="blog-hero__content">
+    <h1 class="display-lg" data-i18n="blog2.title" style="margin-bottom: var(--space-3); color: #ffffff;">THC vs CBD: Diferencias reales, efectos y mitos</h1>
+    <p class="body-lg" data-i18n="blog2.subtitle" style="color: rgba(255,255,255,0.9);">La batalla definitiva entre el invitado ruidoso y el diplomático silencioso.</p>
+  </div>
+</header>
+
+<!-- BLOG CONTENT & TOC -->
+<main class="container" style="max-width: 100%; padding: 0;">
+  <div class="blog-layout">
+    
+    <!-- META HEADER -->
+    <div class="blog-meta">
+      <div style="font-size: 0.875rem; font-weight: 600;" class="text-muted" data-i18n="blog1.author">Smoke & Bloom Editorial</div>
+      <a href="guias" class="btn btn--secondary" style="padding: 0.5rem 1rem;" data-i18n="blog1.back">Volver a Guías</a>
+    </div>
+
+    <!-- TABLE OF CONTENTS (Left Sidebar) -->
+    <aside class="blog-toc">
+      <div class="blog-toc-title" data-i18n="blog2.toc.title">Índice del Artículo</div>
+      <ul>
+        <li><a href="#intro" data-i18n="blog2.toc.1">¿Por qué diferenciarlos?</a></li>
+        <li><a href="#whatis" data-i18n="blog2.toc.2">El Ruidoso vs El Zen</a></li>
+        <li><a href="#body" data-i18n="blog2.toc.3">El sistema endocannabinoide</a></li>
+        <li><a href="#science" data-i18n="blog2.toc.4">Ciencia vs Gurús de internet</a></li>
+        <li><a href="#risks" data-i18n="blog2.toc.5">Riesgos y efectos secundarios</a></li>
+        <li><a href="#myths" data-i18n="blog2.toc.6">Cazadores de mitos</a></li>
+      </ul>
+    </aside>
+
+    <!-- ARTICLE CONTENT -->
+    <article class="blog-article">
+      
+      <h2 id="intro" class="headline-sm" data-i18n="blog2.h2_intro">¿Por qué importa diferenciarlos?</h2>
+      <p class="text-muted" data-i18n="blog2.p_intro">Hablar de 'cannabis' en general es como pedir 'comida' en un restaurante de cinco tenedores: es demasiado ambiguo. La planta contiene más de 100 cannabinoides, pero hay dos celebridades absolutas que acaparan los focos: el THC (tetrahidrocannabinol) y el CBD (cannabidiol). Ambos comparten pasaporte botánico, pero sus personalidades son tan diferentes como un festival de rock y un retiro de yoga silencioso.</p>
+
+      <h2 id="whatis" class="headline-sm" data-i18n="blog2.h2_whatis">El ruidoso vs el zen: ¿Qué son exactamente?</h2>
+      <p class="text-muted" data-i18n="blog2.p_whatis1">El <strong>THC</strong> es el protagonista de la fiesta. Es el compuesto psicoactivo responsable del famoso 'colocón'. Si la marihuana fuera un coche, el THC pisaría a fondo el acelerador de tu percepción.</p>
+      <p class="text-muted" data-i18n="blog2.p_whatis2">Por el contrario, el <strong>CBD</strong> es el copiloto sobrio. No produce efectos intoxicantes, no altera tu conciencia ni te hará reír a carcajadas mirando la pared. Su trabajo es más... burocrático. Actúa tras bambalinas, regulando y modulando funciones biológicas.</p>
+
+      <blockquote class="blog-quote text-muted">
+        "El THC pisa el acelerador sensorial. El CBD es el diplomático en el asiento del copiloto, modulando y calmando."
+      </blockquote>
+      
+      <img src="assets/images/blog_science.png" alt="Botanical Science" class="blog-image-block" style="margin-top: var(--space-4);" />
+      
+      <div class="blog-table-container" style="overflow-x: auto; margin: var(--space-5) 0;">
+        <table style="width: 100%; border-collapse: collapse; text-align: left; background-color: #ffffff; border-radius: var(--radius-lg); overflow: hidden; box-shadow: 0 8px 30px rgba(0,0,0,0.1);">
+          <thead>
+            <tr style="background-color: #f8f9fa; color: #000000; border-bottom: 2px solid #e0e0e0;">
+              <th style="padding: 1.2rem; font-weight: 700;" data-i18n="blog2.table.h1">Característica</th>
+              <th style="padding: 1.2rem; font-weight: 700; color: #1a1a1a;" data-i18n="blog2.table.h2">THC</th>
+              <th style="padding: 1.2rem; font-weight: 700; color: #2e7d32;" data-i18n="blog2.table.h3">CBD</th>
+            </tr>
+          </thead>
+          <tbody style="color: #000000;">
+            <tr style="border-bottom: 1px solid #e0e0e0;">
+              <td style="padding: 1.2rem; font-weight: 600;" data-i18n="blog2.table.r1c1">Psicoactividad</td>
+              <td style="padding: 1.2rem;" data-i18n="blog2.table.r1c2">Alta (Produce 'colocón')</td>
+              <td style="padding: 1.2rem;" data-i18n="blog2.table.r1c3">Nula (No intoxica)</td>
+            </tr>
+            <tr style="border-bottom: 1px solid #e0e0e0;">
+              <td style="padding: 1.2rem; font-weight: 600;" data-i18n="blog2.table.r2c1">Acción principal</td>
+              <td style="padding: 1.2rem;" data-i18n="blog2.table.r2c2">Activa receptores CB1 (Cerebro)</td>
+              <td style="padding: 1.2rem;" data-i18n="blog2.table.r2c3">Modulación indirecta y CB2</td>
+            </tr>
+            <tr>
+              <td style="padding: 1.2rem; font-weight: 600;" data-i18n="blog2.table.r3c1">Fármacos oficiales (Ej. España)</td>
+              <td style="padding: 1.2rem;" data-i18n="blog2.table.r3c2">Sativex (Junto a CBD, para Esclerosis Múltiple)</td>
+              <td style="padding: 1.2rem;" data-i18n="blog2.table.r3c3">Epidyolex (CBD puro, para Epilepsias severas)</td>
+            </tr>
+          </tbody>
+        </table>
+        <p style="font-size: 0.8rem; margin-top: 0.5rem; color: var(--color-gray-500);" data-i18n="blog2.table.source">Fuente: Fichas técnicas AEMPS / CIMA (España)</p>
+      </div>
+
+      <h2 id="body" class="headline-sm" data-i18n="blog2.h2_body">La pista de baile: El sistema endocannabinoide</h2>
+      <p class="text-muted" data-i18n="blog2.p_body">Ambos compuestos interactúan con el sistema endocannabinoide de tu cuerpo, una vasta red química que regula desde el apetito hasta el dolor. El THC va directo a los receptores CB1 del cerebro (¡Bingo! Alteración inmediata). El CBD, más diplomático, prefiere evitar el abordaje directo y modula otros caminos, muchas veces incluso bajándole el volumen a la ansiedad que genera el propio THC.</p>
+
+      <h2 id="science" class="headline-sm" data-i18n="blog2.h2_science">Lo que dice la ciencia (y lo que dice tu gurú de internet)</h2>
+      <p class="text-muted" data-i18n="blog2.p_science">En internet, el CBD parece curar desde una uña encarnada hasta tu crisis existencial. La realidad médica es más sobria. En España, existen fármacos muy específicos aprobados, como Epidyolex (puro CBD para epilepsias severas) o Sativex (mix de THC/CBD para esclerosis múltiple). Fuera de estos usos regulados, gran parte de la evidencia sigue en la categoría de 'prometedor pero falta estudio'. Recuerda: natural no significa mágico ni inocuo.</p>
+
+      <h2 id="risks" class="headline-sm" data-i18n="blog2.h2_risks">Riesgos: No todo es verde esperanza</h2>
+      <p class="text-muted" data-i18n="blog2.p_risks">Seamos claros: el THC, especialmente en cerebros en desarrollo (menores de 25 años), no es una broma. Consumido con frecuencia o en dosis altas, el 'invitado ruidoso' puede causar estragos en la memoria, atención, o regalarte episodios de paranoia de los que no quieres formar parte. El CBD es mucho más seguro y tolerado, aunque si te excedes puedes terminar con somnolencia o peleando con la interacción de otros medicamentos que tomes.</p>
+
+      <div class="blog-myths">
+        <h2 id="myths" class="headline-sm" data-i18n="blog2.h2_myths" style="margin-top: 0;">Cazadores de mitos cannábicos</h2>
+        <p class="text-muted" data-i18n="blog2.p_myths" style="margin-bottom: 0;"><em>'El CBD no hace nada porque no coloca'</em>: Falso. No altera tu percepción visual, pero trabaja en silencio como antiinflamatorio y ansiolítico. <em>'Fumar plantas enteras es más natural y seguro que los fármacos'</em>: Divertido de decir, pero falso; la combustión de cualquier planta daña tus pulmones, sin importar cuán espiritual sea el humo.</p>
+      </div>
+
+      <h2 id="conclusion" class="headline-sm" data-i18n="blog2.h2_conclusion">Cultura con cabeza</h2>
+      <p class="text-muted" data-i18n="blog2.p_conclusion">El conocimiento es el mejor filtro. En Smoke & Bloom celebramos la estética botánica y la cultura adulta, apostando por la ciencia por encima del marketing milagroso. Entender qué consumes (o qué decides no consumir) es la verdadera elegancia.</p>
+    </article>
+  </div>
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer__inner">
+    <div>
+      <div class="footer__brand-title">Smoke &amp; Bloom</div>
+      <p class="footer__brand-desc" data-i18n="footer.desc">Dedicados a la curaduría de una vida intencional. Smoke &amp; Bloom es un catálogo de estilo de vida y no vende ni distribuye cannabis ni sustancias reguladas.</p>
+    </div>
+    <div>
+      <h4 class="footer__col-title" data-i18n="footer.legal">Legal</h4>
+      <a class="footer__link" href="politica-privacidad" data-i18n="footer.privacy">Privacidad</a>
+      <a class="footer__link" href="aviso-afiliados" data-i18n="footer.affiliate">Aviso Afiliados</a>
+      <a class="footer__link" href="terminos" data-i18n="footer.terms">Términos</a>
+    </div>
+    <div>
+      <h4 class="footer__col-title" data-i18n="footer.support">Soporte</h4>
+      <a class="footer__link" href="sobre-nosotros" data-i18n="footer.about">Sobre Nosotros</a>
+      <a class="footer__link" href="#" data-i18n="footer.contact">Contacto</a>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <span data-i18n="footer.rights">&copy; 2026 Smoke &amp; Bloom. Todos los derechos reservados.</span>
+    <span data-i18n="footer.made">Hecho con 🌿 intención</span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/i18n.js"></script>
+</body>
+</html>

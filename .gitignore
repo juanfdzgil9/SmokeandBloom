@@ -1,0 +1,52 @@
+# ============================================
+# SMOKE & BLOOM — Git Ignore
+# ============================================
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+
+# Temporary/scratch files
+*.xlsx
+*.tmp
+products_raw.txt
+scratch_products.json
+temp_products.xlsx
+temp_products_info.json
+productos_temp.xlsx
+productos_temp_copy.xlsx
+
+# Build/utility scripts (not needed in production)
+beautify_descriptions.py
+build_deploy.py
+extract_docx.py
+extract_new_products.py
+extract_products.py
+fix_descriptions.py
+generate_blogs.py
+process_new_products.py
+rebuild_products.py
+update_all_descriptions.py
+update_i18n.py
+update_missing_descriptions.py
+
+# Research/prompt files
+investigacion_rolling_ritual.txt
+prompt_style.txt
+prompt_style_utf8.txt
+
+# Document source files
+documentos/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

@@ -1,0 +1,668 @@
+{
+  "products": [
+    {
+      "id": "apparel-604a47",
+      "category": "apparel",
+      "subcategory": "all",
+      "image": "https://m.media-amazon.com/images/I/61j3nf6N5lL._AC_SX679_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/61j3nf6N5lL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/61j3nf6N5lL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/61j3nf6N5lL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/61j3nf6N5lL._AC_SX679_.jpg"
+      ],
+      "rating": 5,
+      "reviewCount": 10,
+      "badges": [
+        "new"
+      ],
+      "price": 16.99,
+      "dateAdded": "2026-05-23",
+      "popularity": 100,
+      "affiliateLinks": {
+        "amazon": "https://amzn.to/4v4TB8O"
+      },
+      "en": {
+        "name": "RAW Ultra Soft Black Beanie",
+        "description": "Classic black beanie by RAW, designed with super soft acrylic materials to provide warmth and comfort all day long, whether outdoors or relaxing at home.",
+        "details": "<ul><li><strong>Super soft and comfortable:</strong> Ultra-soft design for all-day warmth and comfort.</li><li><strong>Iconic design:</strong> Sewn classic RAW logo patch, ensuring a clean and durable finish.</li><li><strong>Durable and washable:</strong> High-quality 100% acrylic material, machine washable without losing shape or color.</li><li><strong>One size fits all:</strong> Perfect stretchy fit for anyone.</li><li><strong>Official RAW merchandise:</strong> Show your love for the culture with this winter essential.</li></ul>",
+        "priceDisplay": "Check price on Amazon",
+        "btnText": "View on Amazon"
+      },
+      "es": {
+        "name": "RAW Gorro Negro Ultra Suave",
+        "description": "Gorro negro clásico de RAW, diseñado con materiales acrílicos súper suaves para brindarte calidez y comodidad durante todo el día, ya sea al aire libre o relajándote en casa.",
+        "details": "<ul><li><strong>Súper suave y cómodo:</strong> Diseño ultrasuave para calidez y comodidad todo el día.</li><li><strong>Diseño icónico:</strong> Parche con el logotipo clásico de RAW cosido, garantizando un acabado limpio y duradero.</li><li><strong>Duradero y lavable:</strong> Material 100% acrílico de alta calidad, lavable a máquina sin perder forma ni color.</li><li><strong>Talla única:</strong> Ajuste elástico perfecto para cualquier persona.</li><li><strong>Mercancía oficial de RAW:</strong> Demuestra tu amor por la cultura con este artículo esencial de invierno.</li></ul>",
+        "priceDisplay": "Ver precio en Amazon",
+        "btnText": "Comprar en Amazon"
+      }
+    },
+    {
+      "id": "accessories-9e6a28",
+      "category": "accessories",
+      "subcategory": "grinders",
+      "image": "https://m.media-amazon.com/images/I/612h3DsRMBL._AC_SX679_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/612h3DsRMBL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/719nDx9OmLL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/61cQLlMl9NL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/81CCr5ZboNL._AC_SX679_.jpg"
+      ],
+      "rating": 5,
+      "reviewCount": 15,
+      "badges": [
+        "new"
+      ],
+      "price": 36.99,
+      "dateAdded": "2026-05-23",
+      "popularity": 99,
+      "affiliateLinks": {
+        "amazon": "https://amzn.to/4uyHotc"
+      },
+      "en": {
+        "name": "Premium Aluminum Grinder 2.5\"",
+        "description": "2.5-inch herb grinder built from durable aluminum. Designed with precision-cut teeth and a textured grip lid for a consistent, effortless grind.",
+        "details": "<ul><li><strong>Precision sharp teeth:</strong> Breaks down material quickly and evenly for a consistent grind with minimal effort.</li><li><strong>Perfect 2.5-inch size:</strong> Offers the ideal balance between portability and capacity.</li><li><strong>Textured grip lid:</strong> Knurled edge provides a solid grip for smooth and comfortable twisting.</li><li><strong>Durable metal construction:</strong> Strong and reliable aluminum, built to withstand daily use.</li></ul>",
+        "priceDisplay": "Check price on Amazon",
+        "btnText": "View on Amazon"
+      },
+      "es": {
+        "name": "Molinillo de Aluminio Premium 2.5\"",
+        "description": "Molinillo de hierbas de 2.5 pulgadas construido en aluminio resistente. Diseñado con dientes de corte de precisión y una tapa de agarre texturizada para una molienda consistente y sin esfuerzo.",
+        "details": "<ul><li><strong>Dientes afilados de precisión:</strong> Descompone el material de forma rápida y uniforme para una molienda consistente con el mínimo esfuerzo.</li><li><strong>Tamaño perfecto de 2.5 pulgadas:</strong> Ofrece el equilibrio ideal entre portabilidad y capacidad.</li><li><strong>Tapa de agarre texturizada:</strong> Borde moleteado que proporciona un agarre sólido para girar suave y cómodamente.</li><li><strong>Construcción de metal duradero:</strong> Aluminio fuerte y confiable, construido para resistir el uso diario.</li></ul>",
+        "priceDisplay": "Ver precio en Amazon",
+        "btnText": "Comprar en Amazon"
+      }
+    },
+    {
+      "id": "accessories-fc67cb",
+      "category": "accessories",
+      "subcategory": "all",
+      "image": "https://m.media-amazon.com/images/I/61VqucAC8RL._AC_SX679_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/61VqucAC8RL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/61VqucAC8RL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/61jCRRB+WKL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/61SpjkOogkL._AC_SX679_.jpg"
+      ],
+      "rating": 5,
+      "reviewCount": 20,
+      "badges": [
+        "new"
+      ],
+      "price": 9.99,
+      "dateAdded": "2026-05-23",
+      "popularity": 98,
+      "affiliateLinks": {
+        "amazon": "https://amzn.to/4wMkhwq"
+      },
+      "en": {
+        "name": "RAW Murder'd Matte Black Mini Tray",
+        "description": "Elegant and discreet rolling tray from RAW's special Murder'd edition. Its minimalist matte black finish combines with a sturdy, practical construction.",
+        "details": "<ul><li><strong>Black on black style:</strong> 'Murder'd' design in an elegant matte black finish for a modern and discreet look.</li><li><strong>Functional and sturdy build:</strong> Durable metal base with high, rounded edges.</li><li><strong>Practical and portable:</strong> Small size (10.8\" x 6.8\" x 1\"), ideal for travel or storage.</li><li><strong>Accessory included:</strong> Comes with a practical anti-static scoop card (ESD Scoop) for precise handling of your materials.</li></ul>",
+        "priceDisplay": "Check price on Amazon",
+        "btnText": "View on Amazon"
+      },
+      "es": {
+        "name": "RAW Bandeja Murder'd Negro Mate Mini",
+        "description": "Elegante y discreta bandeja de enrollar de la edición especial Murder'd de RAW. Su acabado negro mate minimalista se combina con una construcción resistente y práctica.",
+        "details": "<ul><li><strong>Estilo negro sobre negro:</strong> Diseño 'Murder'd' en un elegante acabado negro mate para un look moderno y discreto.</li><li><strong>Construcción funcional y resistente:</strong> Base de metal duradero con bordes altos y redondeados.</li><li><strong>Práctica y portátil:</strong> Tamaño pequeño (10.8\" x 6.8\" x 1\"), ideal para viajes o almacenamiento.</li><li><strong>Accesorio incluido:</strong> Viene con una práctica tarjeta de cuchara antiestática (ESD Scoop) para un manejo preciso de tus materiales.</li></ul>",
+        "priceDisplay": "Ver precio en Amazon",
+        "btnText": "Comprar en Amazon"
+      }
+    },
+    {
+      "id": "accessories-dbb83e",
+      "category": "accessories",
+      "subcategory": "all",
+      "image": "https://m.media-amazon.com/images/I/811DIZaLX-L._AC_SX679_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/811DIZaLX-L._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/616JQGGJU0L._AC_SX679_.jpg"
+      ],
+      "rating": 5,
+      "reviewCount": 25,
+      "badges": [],
+      "price": 8.0,
+      "dateAdded": "2026-05-23",
+      "popularity": 97,
+      "affiliateLinks": {
+        "amazon": "https://amzn.to/4v8ndlJ"
+      },
+      "en": {
+        "name": "RAW Black Gold Limited Edition Tray",
+        "description": "Special edition metal tray inspired by the iconic RAW Black rolling papers packaging. Featuring a polished gold metal finish with black and clear parts to highlight the gold tone.",
+        "details": "<ul><li><strong>Black Gold design:</strong> Crafted with polished gold metal and a partially black/clear finish that mimics the RAW Black pack.</li><li><strong>Durable construction:</strong> Sturdy Art Deco style metal with high sides to prevent spills.</li><li><strong>Limited edition:</strong> An original RAW collector's item.</li><li><strong>Ideal size:</strong> Practical dimensions of 11 x 7 inches for an ample workspace.</li></ul>",
+        "priceDisplay": "Check price on Amazon",
+        "btnText": "View on Amazon"
+      },
+      "es": {
+        "name": "RAW Bandeja Black Gold Edición Limitada",
+        "description": "Bandeja de metal de edición especial inspirada en el icónico empaque de los papeles RAW Black. Con un acabado de metal dorado pulido, partes negras y partes transparentes para resaltar el tono dorado.",
+        "details": "<ul><li><strong>Diseño Black Gold:</strong> Fabricada con metal dorado pulido y un acabado parcialmente negro/transparente que imita el paquete de RAW Black.</li><li><strong>Construcción duradera:</strong> Metal resistente de estilo Art déco con lados altos para evitar derrames.</li><li><strong>Edición limitada:</strong> Un artículo de colección original de RAW.</li><li><strong>Tamaño ideal:</strong> Dimensiones prácticas de 11 x 7 pulgadas para un amplio espacio de trabajo.</li></ul>",
+        "priceDisplay": "Ver precio en Amazon",
+        "btnText": "Comprar en Amazon"
+      }
+    },
+    {
+      "id": "accessories-cfdaaa",
+      "category": "accessories",
+      "subcategory": "all",
+      "image": "https://m.media-amazon.com/images/I/714NPTROLRL._AC_SX679_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/714NPTROLRL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/71dzQsAMwQL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/71dzQsAMwQL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/816q+wmVnEL._AC_SX679_.jpg"
+      ],
+      "rating": 5,
+      "reviewCount": 30,
+      "badges": [],
+      "price": 5.69,
+      "dateAdded": "2026-05-23",
+      "popularity": 96,
+      "affiliateLinks": {
+        "amazon": "https://amzn.to/4uX9huG"
+      },
+      "en": {
+        "name": "RAW Classic Mini Tray",
+        "description": "The classic and iconic RAW tray in its most compact format. Features crease-free curved edges and premium metal to keep your space spotless.",
+        "details": "<ul><li><strong>Authentic RAW design:</strong> Beautifully represented \"Classic RAW\" certified art.</li><li><strong>Curved corners:</strong> Crease-free design that makes maintenance easy and prevents residue buildup.</li><li><strong>Practical and compact:</strong> Mini size (7.25\" x 5\" x 0.6\"), perfect for maximum portability and clean desks.</li><li><strong>Durability:</strong> Thick, durable metal-based design with an elegant finish.</li></ul>",
+        "priceDisplay": "Check price on Amazon",
+        "btnText": "View on Amazon"
+      },
+      "es": {
+        "name": "RAW Bandeja Clásica Mini",
+        "description": "La clásica e icónica bandeja de RAW en su formato más compacto. Cuenta con bordes curvados sin pliegues y metal de primera calidad para mantener tu espacio impecable.",
+        "details": "<ul><li><strong>Auténtico diseño RAW:</strong> Arte certificado \"Classic RAW\" bellamente representado.</li><li><strong>Esquinas curvadas:</strong> Diseño sin pliegues que facilita el mantenimiento y evita la acumulación de residuos.</li><li><strong>Práctica y compacta:</strong> Tamaño mini (7.25\" x 5\" x 0.6\"), perfecto para máxima portabilidad y escritorios limpios.</li><li><strong>Durabilidad:</strong> Diseño a base de metal grueso y duradero con un acabado elegante.</li></ul>",
+        "priceDisplay": "Ver precio en Amazon",
+        "btnText": "Comprar en Amazon"
+      }
+    },
+    {
+      "id": "accessories-7a0734",
+      "category": "accessories",
+      "subcategory": "all",
+      "image": "https://m.media-amazon.com/images/I/71lIoyq0wyL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/71lIoyq0wyL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+        "https://m.media-amazon.com/images/I/71lFfSX7yrL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/71lFfSX7yrL._AC_SX679_.jpg"
+      ],
+      "rating": 5,
+      "reviewCount": 35,
+      "badges": [],
+      "price": 11.99,
+      "dateAdded": "2026-05-23",
+      "popularity": 95,
+      "affiliateLinks": {
+        "amazon": "https://amzn.to/4f3i61o"
+      },
+      "en": {
+        "name": "RAW AF Chrome Large Tray",
+        "description": "Large-format rolling tray with a dazzling polished chrome top. Protected with a clear coating that resists wear and rust.",
+        "details": "<ul><li><strong>Polished chrome finish:</strong> Luxurious, brilliant design that stands out in any collection.</li><li><strong>Maximum protection:</strong> Special clear coating that prevents rust and wear from daily use.</li><li><strong>Generous space:</strong> Large size (13.5\" x 11\" x 1\") to comfortably hold all your accessories and residue.</li><li><strong>Functional comfort:</strong> High, rounded corners that make cleaning and accessibility easy.</li></ul>",
+        "priceDisplay": "Check price on Amazon",
+        "btnText": "View on Amazon"
+      },
+      "es": {
+        "name": "RAW Bandeja AF Cromada Grande",
+        "description": "Bandeja de enrollar de gran formato con una deslumbrante parte superior de cromo pulido. Protegida con un recubrimiento transparente resistente al desgaste y al óxido.",
+        "details": "<ul><li><strong>Acabado en cromo pulido:</strong> Diseño lujoso y brillante que destaca en cualquier colección.</li><li><strong>Máxima protección:</strong> Recubrimiento transparente especial que previene el óxido y el desgaste del uso diario.</li><li><strong>Espacio generoso:</strong> Tamaño grande (13.5\" x 11\" x 1\") para contener cómodamente todos tus accesorios y residuos.</li><li><strong>Comodidad funcional:</strong> Esquinas altas y redondeadas que facilitan la limpieza y la accesibilidad.</li></ul>",
+        "priceDisplay": "Ver precio en Amazon",
+        "btnText": "Comprar en Amazon"
+      }
+    },
+    {
+      "id": "accessories-5dc22d",
+      "category": "accessories",
+      "subcategory": "all",
+      "image": "https://m.media-amazon.com/images/I/71lMTd6nYdL._AC_SX679_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/71lMTd6nYdL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/71kD+pOxQ3L._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/7186MS6eWyL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/819cv0MGoLL._AC_SX679_.jpg"
+      ],
+      "rating": 5,
+      "reviewCount": 40,
+      "badges": [],
+      "price": 10.74,
+      "dateAdded": "2026-05-23",
+      "popularity": 94,
+      "affiliateLinks": {
+        "amazon": "https://amzn.to/4dL0cOJ"
+      },
+      "en": {
+        "name": "ZIG-ZAG Large White Tray",
+        "description": "Spacious ZIG-ZAG metal rolling tray in a pristine white and blue design. Combines an elegant, minimalist aesthetic with superior durability.",
+        "details": "<ul><li><strong>Generous size:</strong> Measures 13.4\" x 10.8\", providing ample space to organize all your accessories.</li><li><strong>Durable construction:</strong> High-quality metal that won't bend or warp, ensuring an always-stable surface.</li><li><strong>Thoughtful design:</strong> High edges and smooth rounded corners for secure containment and easy handling.</li><li><strong>Simple maintenance:</strong> Its smooth metallic surface wipes clean effortlessly, retaining its elegant look.</li></ul>",
+        "priceDisplay": "Check price on Amazon",
+        "btnText": "View on Amazon"
+      },
+      "es": {
+        "name": "ZIG-ZAG Bandeja Blanca Grande",
+        "description": "Espaciosa bandeja rodante de metal de ZIG-ZAG en un impecable diseño blanco y azul. Combina la estética elegante y minimalista con una durabilidad superior.",
+        "details": "<ul><li><strong>Tamaño generoso:</strong> Medidas de 13.4\" x 10.8\", proporcionando un amplio espacio para organizar todos tus accesorios.</li><li><strong>Construcción duradera:</strong> Metal de alta calidad que no se dobla ni deforma, asegurando una superficie siempre estable.</li><li><strong>Diseño cuidadoso:</strong> Bordes altos y esquinas redondeadas suaves para contención segura y fácil manejo.</li><li><strong>Mantenimiento sencillo:</strong> Su superficie metálica lisa se limpia sin ningún esfuerzo, conservando su aspecto elegante.</li></ul>",
+        "priceDisplay": "Ver precio en Amazon",
+        "btnText": "Comprar en Amazon"
+      }
+    },
+    {
+      "id": "accessories-04d1ae",
+      "category": "accessories",
+      "subcategory": "grinders",
+      "image": "https://m.media-amazon.com/images/I/51-MmRpeiEL._AC_SX679_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/51-MmRpeiEL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/61-VOuh40fL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/61lPhDY9lcL._AC_SL1080_.jpg",
+        "https://m.media-amazon.com/images/I/61Np3Fg8cTL._AC_.jpg"
+      ],
+      "rating": 5,
+      "reviewCount": 45,
+      "badges": [],
+      "price": 60.0,
+      "dateAdded": "2026-05-23",
+      "popularity": 93,
+      "affiliateLinks": {
+        "amazon": "https://amzn.to/4utk1Ru"
+      },
+      "en": {
+        "name": "Zig-Zag Toothless Flower Mill 2.5\"",
+        "description": "Revolutionary 3-piece flower mill by Zig-Zag, CNC machined from 6061 aircraft aluminum. Its unique toothless design produces an extra fluffy grind without clogs.",
+        "details": "<ul><li><strong>Toothless innovation:</strong> The milling mechanism prevents waste and clogging, delivering a fluffy, consistent texture.</li><li><strong>Premium machining:</strong> Aircraft-grade 6061 aluminum with an elegant black anodized finish.</li><li><strong>2.5-inch chamber:</strong> Large capacity to prep larger amounts of material in a single pass evenly.</li><li><strong>Effortless experience:</strong> Precision components reduce friction for easy twisting with minimal physical effort.</li><li><strong>Easy to clean:</strong> The absence of teeth eliminates areas where residue builds up, making maintenance a breeze.</li></ul>",
+        "priceDisplay": "Check price on Amazon",
+        "btnText": "View on Amazon"
+      },
+      "es": {
+        "name": "Zig-Zag Molino de Flores sin Dientes 2.5\"",
+        "description": "Revolucionario molino de flores de 3 piezas de Zig-Zag, mecanizado CNC en aluminio aeronáutico 6061. Su diseño único sin dientes produce una molienda extra esponjosa sin obstrucciones.",
+        "details": "<ul><li><strong>Innovación sin dientes:</strong> El mecanismo de molienda evita el desperdicio y la obstrucción, entregando una textura esponjosa y consistente.</li><li><strong>Mecanizado premium:</strong> Aluminio 6061 de grado aeronáutico con un elegante acabado anodizado negro.</li><li><strong>Cámara de 2.5 pulgadas:</strong> Gran capacidad para preparar mayores cantidades de material en una sola pasada de forma uniforme.</li><li><strong>Experiencia sin esfuerzo:</strong> Componentes de precisión que reducen la fricción para girar fácilmente con el mínimo esfuerzo físico.</li><li><strong>Fácil de limpiar:</strong> La ausencia de dientes elimina áreas donde se acumulan residuos, facilitando el mantenimiento.</li></ul>",
+        "priceDisplay": "Ver precio en Amazon",
+        "btnText": "Comprar en Amazon"
+      }
+    },
+    {
+      "id": "accessories-1165a0",
+      "category": "accessories",
+      "subcategory": "all",
+      "image": "https://m.media-amazon.com/images/I/61S-ij9tHwL._AC_SX679_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/61S-ij9tHwL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/61bzIndMRKL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/61LAVtzj5ZL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/71+RDS76RmL._AC_SX679_.jpg"
+      ],
+      "rating": 5,
+      "reviewCount": 50,
+      "badges": [],
+      "price": 10.0,
+      "dateAdded": "2026-05-23",
+      "popularity": 92,
+      "affiliateLinks": {
+        "amazon": "https://amzn.to/4v8UvRK"
+      },
+      "en": {
+        "name": "ZIG-ZAG Classic Small Tray - Black",
+        "description": "Compact ZIG-ZAG tray featuring the brand's nostalgic retro design on an elegant black background. Perfect for home use or on-the-go.",
+        "details": "<ul><li><strong>Elegant retro design:</strong> Shows the classic Zig-Zag logo on a black background, adding a nostalgic touch to your space.</li><li><strong>Compact and portable:</strong> Measures 10.75\" x 6.5\" (27.3 cm x 16.5 cm), ideal for carrying in a backpack or storing in a drawer.</li><li><strong>High durability:</strong> Robust metallic construction that resists bends and dents.</li><li><strong>Smooth surface:</strong> Easy to wipe down, ensuring maintenance is always quick and simple.</li></ul>",
+        "priceDisplay": "Check price on Amazon",
+        "btnText": "View on Amazon"
+      },
+      "es": {
+        "name": "ZIG-ZAG Bandeja Clásica Pequeña - Negra",
+        "description": "Bandeja compacta de ZIG-ZAG con el diseño retro y nostálgico de la marca sobre un elegante fondo negro. Perfecta para el hogar o para llevarla contigo.",
+        "details": "<ul><li><strong>Diseño retro elegante:</strong> Muestra el clásico logotipo de Zig-Zag sobre fondo negro, añadiendo un toque nostálgico a tu espacio.</li><li><strong>Compacta y portátil:</strong> Mide 10.75\" x 6.5\" (27,3 cm x 16,5 cm), ideal para llevarla en una mochila o guardarla en un cajón.</li><li><strong>Alta durabilidad:</strong> Construcción metálica robusta que resiste dobleces y abolladuras.</li><li><strong>Superficie lisa:</strong> Fácil de limpiar, asegurando que el mantenimiento sea siempre rápido y sencillo.</li></ul>",
+        "priceDisplay": "Ver precio en Amazon",
+        "btnText": "Comprar en Amazon"
+      }
+    },
+    {
+      "id": "apparel-15f00a",
+      "category": "apparel",
+      "subcategory": "all",
+      "image": "https://m.media-amazon.com/images/I/61dPQe-51HL._AC_SX679_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/61dPQe-51HL._AC_SX679_.jpg"
+      ],
+      "rating": 5,
+      "reviewCount": 55,
+      "badges": [],
+      "price": 19.99,
+      "dateAdded": "2026-05-23",
+      "popularity": 91,
+      "affiliateLinks": {
+        "amazon": "https://amzn.to/49j3KGn"
+      },
+      "en": {
+        "name": "ZIG-ZAG Boris Black/Gold T-Shirt",
+        "description": "Showcase classic culture with this 100% cotton black t-shirt, featuring a stunning gold screen-printed graphic of the legendary Zig-Zag Boris logo.",
+        "details": "<ul><li><strong>Iconic design:</strong> Classic Boris logo in a bold black and gold contrast that provides an urban, sophisticated style.</li><li><strong>Premium comfort:</strong> Made of 100% breathable cotton to offer softness and freshness all day long.</li><li><strong>Durable print:</strong> High-quality screen printing that keeps the vibrant gold color without fading or cracking after washes.</li><li><strong>Official merchandise:</strong> Officially licensed ZIG-ZAG apparel, a must-have for brand enthusiasts.</li></ul>",
+        "priceDisplay": "Check price on Amazon",
+        "btnText": "View on Amazon"
+      },
+      "es": {
+        "name": "Camiseta ZIG-ZAG Boris Negra/Dorada",
+        "description": "Exhibe la icónica cultura clásica con esta camiseta negra 100% algodón, protagonizada por un impresionante gráfico serigrafiado en dorado del legendario logotipo de Boris de Zig-Zag.",
+        "details": "<ul><li><strong>Diseño icónico:</strong> Logotipo clásico de Boris en un audaz contraste negro y dorado que aporta un estilo urbano y sofisticado.</li><li><strong>Comodidad prémium:</strong> Confeccionada en 100% algodón transpirable para ofrecer suavidad y frescura todo el día.</li><li><strong>Estampado duradero:</strong> Serigrafía de alta calidad que mantiene el vibrante color dorado sin decolorarse ni agrietarse tras los lavados.</li><li><strong>Mercancía oficial:</strong> Ropa con licencia oficial de ZIG-ZAG, una pieza imprescindible para los entusiastas de la marca.</li></ul>",
+        "priceDisplay": "Ver precio en Amazon",
+        "btnText": "Comprar en Amazon"
+      }
+    },
+    {
+      "id": "accessories-64d22a",
+      "category": "accessories",
+      "subcategory": "grinders",
+      "image": "https://m.media-amazon.com/images/I/618pochNB9L._AC_SX679_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/618pochNB9L._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/813-WJl9hnL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/71ys2CU+6uL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/71vBTbQUf9L._AC_SL1500_.jpg"
+      ],
+      "rating": 5,
+      "reviewCount": 60,
+      "badges": [],
+      "price": 59.9,
+      "dateAdded": "2026-05-23",
+      "popularity": 90,
+      "affiliateLinks": {
+        "amazon": "https://amzn.to/4wBl9Ea"
+      },
+      "en": {
+        "name": "Santa Cruz Shredder 3-Piece (Grey)",
+        "description": "High-end 3-piece grinder in grey. American precision engineering with patented teeth for the perfect texture.",
+        "details": "<ul><li><strong>Patented design:</strong> 45 strategically placed teeth to cut smoothly rather than crush the material.</li><li><strong>Aircraft quality:</strong> Built from solid aluminum with a scratch-resistant grey anodized finish.</li><li><strong>Superior grip:</strong> Textured lid for easy twisting with minimal friction.</li><li><strong>Strong magnetic lid:</strong> Locking system that hermetically seals odors and moisture.</li><li><strong>Medium size:</strong> 2.125\" inches in diameter, great capacity and efficiency.</li></ul>",
+        "priceDisplay": "Check price on Amazon",
+        "btnText": "View on Amazon"
+      },
+      "es": {
+        "name": "Santa Cruz Shredder 3 Piezas (Gris)",
+        "description": "Molinillo de 3 piezas de gama alta en color gris. Ingeniería de precisión estadounidense con dientes patentados para la textura perfecta.",
+        "details": "<ul><li><strong>Diseño patentado:</strong> 45 dientes instalados estratégicamente para cortar suavemente en lugar de aplastar el material.</li><li><strong>Calidad aeronáutica:</strong> Construido en aluminio sólido con acabado anodizado gris resistente a los arañazos.</li><li><strong>Agarre superior:</strong> Tapa texturizada para girar fácilmente con mínima fricción.</li><li><strong>Tapa magnética fuerte:</strong> Sistema de bloqueo que sella herméticamente olores y humedad.</li><li><strong>Tamaño mediano:</strong> 2.125\" pulgadas de diámetro, gran capacidad y eficiencia.</li></ul>",
+        "priceDisplay": "Ver precio en Amazon",
+        "btnText": "Comprar en Amazon"
+      }
+    },
+    {
+      "id": "accessories-40e452",
+      "category": "accessories",
+      "subcategory": "grinders",
+      "image": "https://m.media-amazon.com/images/I/71jzZfHlFhL._AC_SX679_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/71jzZfHlFhL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/81QTBkwEE3L._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/71u7Qh5YNnL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/71u7Qh5YNnL._AC_SX679_.jpg"
+      ],
+      "rating": 5,
+      "reviewCount": 65,
+      "badges": [],
+      "price": 53.96,
+      "dateAdded": "2026-05-23",
+      "popularity": 89,
+      "affiliateLinks": {
+        "amazon": "https://amzn.to/3RrteLF"
+      },
+      "en": {
+        "name": "Santa Cruz Shredder 3-Piece (Gold)",
+        "description": "Luxurious 3-piece grinder in shiny gold. Its patented design and aluminum build ensure flawless grinding for a lifetime.",
+        "details": "<ul><li><strong>Patented design:</strong> Unique teeth that fluff the material evenly without pulverizing it.</li><li><strong>Unmatched durability:</strong> Medical-grade machined aluminum with a scratch-free anodized finish.</li><li><strong>Effortless handling:</strong> Knurled (textured) edge for a stronger and more comfortable grip.</li><li><strong>Rare-earth magnetic closure:</strong> Maintains freshness and prevents accidental spills.</li><li><strong>Ideal size:</strong> 2.125\" (medium), perfect for daily home use.</li></ul>",
+        "priceDisplay": "Check price on Amazon",
+        "btnText": "View on Amazon"
+      },
+      "es": {
+        "name": "Santa Cruz Shredder 3 Piezas (Dorado)",
+        "description": "Lujoso molinillo de 3 piezas en color dorado brillante. Su diseño patentado y construcción en aluminio aseguran una molienda impecable de por vida.",
+        "details": "<ul><li><strong>Diseño patentado:</strong> Dientes únicos que esponjan el material uniformemente sin pulverizarlo.</li><li><strong>Durabilidad inigualable:</strong> Aluminio mecanizado de grado médico con acabado anodizado que no se raya.</li><li><strong>Manejo sin esfuerzo:</strong> Borde moleteado (texturizado) para un agarre más fuerte y cómodo.</li><li><strong>Cierre magnético de tierras raras:</strong> Mantiene la frescura y evita derrames accidentales.</li><li><strong>Tamaño ideal:</strong> 2.125\" (mediano), perfecto para uso diario en el hogar.</li></ul>",
+        "priceDisplay": "Ver precio en Amazon",
+        "btnText": "Comprar en Amazon"
+      }
+    },
+    {
+      "id": "accessories-93bcc5",
+      "category": "accessories",
+      "subcategory": "grinders",
+      "image": "https://m.media-amazon.com/images/I/71UuVZ4arfL._AC_SX679_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/71UuVZ4arfL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/81VTegNCFML._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/71FXKelGR1L._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/71pm6B4QodL._AC_SX679_.jpg"
+      ],
+      "rating": 5,
+      "reviewCount": 70,
+      "badges": [],
+      "price": 59.95,
+      "dateAdded": "2026-05-23",
+      "popularity": 88,
+      "affiliateLinks": {
+        "amazon": "https://amzn.to/43omv7M"
+      },
+      "en": {
+        "name": "Santa Cruz Shredder 3-Piece (Pink)",
+        "description": "3-piece grinder in an eye-catching pink color. A masterpiece of engineering by Santa Cruz Shredder for those seeking style and perfect performance.",
+        "details": "<ul><li><strong>Patented design:</strong> Advanced cutting technology that preps material quickly and jam-free.</li><li><strong>Premium finish:</strong> Ultrasonically cleaned aluminum with a deep pink anodized coating.</li><li><strong>Superior textured grip:</strong> Maximum comfort when twisting, requiring very little force.</li><li><strong>Magnetic security:</strong> Powerful magnet ensures your herbs won't spill in transit.</li><li><strong>Quality assurance:</strong> Perfectly assembled to last a lifetime.</li></ul>",
+        "priceDisplay": "Check price on Amazon",
+        "btnText": "View on Amazon"
+      },
+      "es": {
+        "name": "Santa Cruz Shredder 3 Piezas (Rosado)",
+        "description": "Molinillo de 3 piezas en un llamativo color rosado. Una pieza maestra de ingeniería de Santa Cruz Shredder para quienes buscan estilo y rendimiento perfecto.",
+        "details": "<ul><li><strong>Diseño patentado:</strong> Tecnología de corte avanzada que prepara el material rápidamente y sin atascos.</li><li><strong>Acabado Premium:</strong> Aluminio limpiado por ultrasonido con recubrimiento anodizado en rosa intenso.</li><li><strong>Agarre texturizado superior:</strong> Máxima comodidad al girar, requiriendo muy poca fuerza.</li><li><strong>Seguridad magnética:</strong> El poderoso imán asegura que tus hierbas no se derramen en tránsito.</li><li><strong>Garantía de calidad:</strong> Ensamblado a la perfección para durar toda la vida.</li></ul>",
+        "priceDisplay": "Ver precio en Amazon",
+        "btnText": "Comprar en Amazon"
+      }
+    },
+    {
+      "id": "accessories-c7f09e",
+      "category": "accessories",
+      "subcategory": "grinders",
+      "image": "https://m.media-amazon.com/images/I/61R+CrStZOL._AC_SX679_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/61R+CrStZOL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/61R+CrStZOL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/71j6gLyINNL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/710yfvcKKIL._AC_SX679_.jpg"
+      ],
+      "rating": 5,
+      "reviewCount": 75,
+      "badges": [],
+      "price": 59.9,
+      "dateAdded": "2026-05-23",
+      "popularity": 87,
+      "affiliateLinks": {
+        "amazon": "https://amzn.to/49Pz7Zj"
+      },
+      "en": {
+        "name": "Santa Cruz Shredder 3-Piece (Purple)",
+        "description": "The famed 3-piece Santa Cruz Shredder grinder in an elegant dark purple finish. Precision, durability, and a consistently fluffy result.",
+        "details": "<ul><li><strong>Precision teeth:</strong> Innovative square teeth that prevent dulling and cut cleanly.</li><li><strong>Superior material:</strong> Built with aerospace-grade aluminum that won't flake off metal shavings.</li><li><strong>Ergonomic design:</strong> Knurled edge for a solid grip, ideal for people with hand pain.</li><li><strong>Optimal sealing:</strong> Foolproof magnetic system to lock in moisture and odor.</li><li><strong>Practical size:</strong> Spacious 2.125-inch chamber.</li></ul>",
+        "priceDisplay": "Check price on Amazon",
+        "btnText": "View on Amazon"
+      },
+      "es": {
+        "name": "Santa Cruz Shredder 3 Piezas (Morado)",
+        "description": "El afamado molinillo de 3 piezas de Santa Cruz Shredder en un elegante acabado morado oscuro. Precisión, durabilidad y un resultado siempre esponjoso.",
+        "details": "<ul><li><strong>Dientes de precisión:</strong> Innovadores dientes cuadrados que previenen el desgaste y cortan limpiamente.</li><li><strong>Material superior:</strong> Construido con aluminio de grado aeroespacial que no desprende virutas.</li><li><strong>Diseño ergonómico:</strong> Borde moleteado para un agarre sólido, ideal para personas con dolor de manos.</li><li><strong>Sellado óptimo:</strong> Sistema magnético infalible para bloquear la humedad y el olor.</li><li><strong>Tamaño práctico:</strong> Cámara espaciosa de 2.125 pulgadas.</li></ul>",
+        "priceDisplay": "Ver precio en Amazon",
+        "btnText": "Comprar en Amazon"
+      }
+    },
+    {
+      "id": "accessories-8b4d2f",
+      "category": "accessories",
+      "subcategory": "grinders",
+      "image": "https://m.media-amazon.com/images/I/71tinYLk5QL._AC_SX679_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/71tinYLk5QL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/81XKLuvJs0L._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/71STvHG5t9L._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/71fkqRp2TiL._AC_SX679_.jpg"
+      ],
+      "rating": 5,
+      "reviewCount": 80,
+      "badges": [],
+      "price": 53.96,
+      "dateAdded": "2026-05-23",
+      "popularity": 86,
+      "affiliateLinks": {
+        "amazon": "https://amzn.to/3Rh3Nwm"
+      },
+      "en": {
+        "name": "Santa Cruz Shredder 3-Piece (Red)",
+        "description": "Vibrant red 3-piece grinder. The legendary Santa Cruz Shredder quality that transforms dense material into the ideal texture with just a few twists.",
+        "details": "<ul><li><strong>Patented engineering:</strong> Tooth design that cuts in multiple directions simultaneously.</li><li><strong>Anodized body:</strong> Solid aluminum resistant to bumps, drops, and scratches.</li><li><strong>Easy to twist:</strong> Textured top provides additional leverage.</li><li><strong>Clean and pure:</strong> No metal-on-metal friction, keeping your product free of contamination.</li><li><strong>Secure closure:</strong> Magnetic lid that protects your spices wherever you go.</li></ul>",
+        "priceDisplay": "Check price on Amazon",
+        "btnText": "View on Amazon"
+      },
+      "es": {
+        "name": "Santa Cruz Shredder 3 Piezas (Rojo)",
+        "description": "Vibrante grinder rojo de 3 piezas. La legendaria calidad de Santa Cruz Shredder que transforma el material denso en la textura ideal con solo unos giros.",
+        "details": "<ul><li><strong>Ingeniería patentada:</strong> Diseño de dientes que corta en múltiples direcciones al mismo tiempo.</li><li><strong>Cuerpo anodizado:</strong> Aluminio sólido resistente a golpes, caídas y ralladuras.</li><li><strong>Fácil de girar:</strong> La parte superior texturizada proporciona apalancamiento adicional.</li><li><strong>Limpieza y pureza:</strong> Sin fricción de metal con metal, manteniendo tu producto libre de contaminación.</li><li><strong>Cierre seguro:</strong> Tapa magnética que protege tus especias dondequiera que vayas.</li></ul>",
+        "priceDisplay": "Ver precio en Amazon",
+        "btnText": "Comprar en Amazon"
+      }
+    },
+    {
+      "id": "accessories-96c8eb",
+      "category": "accessories",
+      "subcategory": "grinders",
+      "image": "https://m.media-amazon.com/images/I/71N27eI15qL._AC_SX679_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/71N27eI15qL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/719+gRKNWTL._AC_SY879_.jpg",
+        "https://m.media-amazon.com/images/I/71-DgZPoNIL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/71lv+tV714L._AC_SY879_.jpg"
+      ],
+      "rating": 5,
+      "reviewCount": 85,
+      "badges": [],
+      "price": 59.95,
+      "dateAdded": "2026-05-23",
+      "popularity": 85,
+      "affiliateLinks": {
+        "amazon": "https://amzn.to/4ulukXQ"
+      },
+      "en": {
+        "name": "Santa Cruz Shredder 3-Piece (Blue)",
+        "description": "Featuring a deep blue finish, this aircraft aluminum 3-piece grinder offers the gold standard in grinding and aroma retention.",
+        "details": "<ul><li><strong>Smooth flawless cut:</strong> Exclusively designed teeth that don't obliterate the material.</li><li><strong>Guaranteed strength:</strong> Aerospace-quality aluminum, ensuring a prolonged lifespan.</li><li><strong>Knurled design:</strong> Grooved superior grip making grinding an easy, fluid process.</li><li><strong>Powerful magnet:</strong> Prevents unwanted opening and seals your herbs tightly.</li><li><strong>2.125\" measurement:</strong> Versatile medium size that is easy to clean.</li></ul>",
+        "priceDisplay": "Check price on Amazon",
+        "btnText": "View on Amazon"
+      },
+      "es": {
+        "name": "Santa Cruz Shredder 3 Piezas (Azul)",
+        "description": "Con un acabado azul intenso, este grinder de 3 piezas de aluminio aeronáutico ofrece el estándar de oro en molienda y retención de aromas.",
+        "details": "<ul><li><strong>Corte suave e impecable:</strong> Dientes de diseño exclusivo que no destrozan el material.</li><li><strong>Resistencia garantizada:</strong> Aluminio de calidad aeroespacial, garantizando una vida útil prolongada.</li><li><strong>Diseño moleteado:</strong> Agarre superior estriado que hace de la molienda un proceso fácil y fluido.</li><li><strong>Potente imán:</strong> Evita aperturas no deseadas y asegura tus hierbas herméticamente.</li><li><strong>Medida de 2.125\":</strong> Tamaño mediano versátil y fácil de limpiar.</li></ul>",
+        "priceDisplay": "Ver precio en Amazon",
+        "btnText": "Comprar en Amazon"
+      }
+    },
+    {
+      "id": "accessories-ad9df6",
+      "category": "accessories",
+      "subcategory": "grinders",
+      "image": "https://m.media-amazon.com/images/I/71tQMbuJijL._AC_SX679_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/71tQMbuJijL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/81o79EZfcJL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/71nRvHTDmNL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/71VjKq4galL._AC_SX679_.jpg"
+      ],
+      "rating": 5,
+      "reviewCount": 90,
+      "badges": [],
+      "price": 53.96,
+      "dateAdded": "2026-05-23",
+      "popularity": 84,
+      "affiliateLinks": {
+        "amazon": "https://amzn.to/4wIyfiW"
+      },
+      "en": {
+        "name": "Santa Cruz Shredder 3-Piece (Teal)",
+        "description": "Stand out with this spectacular teal 3-piece grinder. Solid construction and patented teeth for the most consistent preparation.",
+        "details": "<ul><li><strong>Distinctive finish:</strong> Beautiful teal anodization that won't fade over time.</li><li><strong>Optimized grind:</strong> Precision teeth that create a homogeneous, fluffy product, ideal for an even burn.</li><li><strong>Premium construction:</strong> Made in the USA with ultrasonically cleaned aluminum.</li><li><strong>Anti-friction ring:</strong> Ensures the grinder twists silkily with no metal wear.</li><li><strong>Magnetic attachment:</strong> Keep all your components securely united.</li></ul>",
+        "priceDisplay": "Check price on Amazon",
+        "btnText": "View on Amazon"
+      },
+      "es": {
+        "name": "Santa Cruz Shredder 3 Piezas (Verde Azulado)",
+        "description": "Destaca con este espectacular molinillo verde azulado (Teal) de 3 piezas. Construcción sólida y dientes patentados para la preparación más consistente.",
+        "details": "<ul><li><strong>Acabado distintivo:</strong> Hermoso anodizado color verde azulado que no se desvanece con el tiempo.</li><li><strong>Molienda optimizada:</strong> Dientes de precisión que crean un producto homogéneo y esponjoso, ideal para quemar uniformemente.</li><li><strong>Construcción premium:</strong> Hecho en EE. UU. con aluminio limpiado por ultrasonido.</li><li><strong>Anillo antifricción:</strong> Garantiza que el molinillo gire de manera sedosa y sin desgaste de metales.</li><li><strong>Fijación magnética:</strong> Mantén todos tus componentes unidos de forma segura.</li></ul>",
+        "priceDisplay": "Ver precio en Amazon",
+        "btnText": "Comprar en Amazon"
+      }
+    },
+    {
+      "id": "apparel-314e3a",
+      "category": "apparel",
+      "subcategory": "all",
+      "image": "https://m.media-amazon.com/images/I/71jTddq1JtL._AC_SX679_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/71jTddq1JtL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/71Qs4tcSSdL._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/71wQEk12kYL._AC_SX679_.jpg"
+      ],
+      "rating": 5,
+      "reviewCount": 95,
+      "badges": [],
+      "price": 42.99,
+      "dateAdded": "2026-05-23",
+      "popularity": 83,
+      "affiliateLinks": {
+        "amazon": "https://amzn.to/4tSLCdR"
+      },
+      "en": {
+        "name": "Classic Rick and Morty Varsity Jacket",
+        "description": "Classic men's Varsity style jacket, officially licensed and featuring iconic Rick and Morty graphics. Perfect for a casual and urban look.",
+        "details": "<ul><li><strong>Classic Varsity Design:</strong> Timeless collegiate style that easily pairs with any casual outfit.</li><li><strong>Official Graphics:</strong> Features high-quality original Rick and Morty art and details.</li><li><strong>Superior comfort:</strong> Warm and comfortable fabrics, ideal for chilly days or nights out.</li><li><strong>Snap-button closure:</strong> Practical and quick to put on, with a genuine retro touch.</li><li><strong>100% authentic merchandise:</strong> Show your love for the craziest animated series in the galaxy.</li></ul>",
+        "priceDisplay": "Check price on Amazon",
+        "btnText": "View on Amazon"
+      },
+      "es": {
+        "name": "Chaqueta Varsity Rick and Morty Clásica",
+        "description": "Chaqueta tipo Varsity (universitaria) de estilo clásico para hombre, con licencia oficial y los icónicos gráficos de Rick and Morty. Perfecta para un look casual y urbano.",
+        "details": "<ul><li><strong>Diseño Varsity Clásico:</strong> Estilo universitario atemporal que combina fácilmente con cualquier atuendo casual.</li><li><strong>Gráficos Oficiales:</strong> Cuenta con detalles y arte original de Rick and Morty de alta calidad.</li><li><strong>Comodidad superior:</strong> Tejidos abrigados y cómodos, ideales para los días fríos o para salir de noche.</li><li><strong>Cierre de botones a presión:</strong> Práctica y rápida de poner, con un toque retro genuino.</li><li><strong>Mercancía 100% auténtica:</strong> Demuestra tu amor por la serie animada más loca de la galaxia.</li></ul>",
+        "priceDisplay": "Ver precio en Amazon",
+        "btnText": "Comprar en Amazon"
+      }
+    },
+    {
+      "id": "apparel-f0edbb",
+      "category": "apparel",
+      "subcategory": "all",
+      "image": "https://m.media-amazon.com/images/I/B1mEhjGJ2nL._CLa%7C2140%2C2000%7CB1K6o8Iw4wL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_SX679_.png",
+      "images": [
+        "https://m.media-amazon.com/images/I/B1mEhjGJ2nL._CLa%7C2140%2C2000%7CB1K6o8Iw4wL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_SX679_.png",
+        "https://m.media-amazon.com/images/I/B1mEhjGJ2nL._CLa%7C2140%2C2000%7CB1K6o8Iw4wL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_SX679_.png",
+        "https://m.media-amazon.com/images/I/B1mEhjGJ2nL._CLa%7C2140%2C2000%7CB1K6o8Iw4wL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_SX679_.png",
+        "https://m.media-amazon.com/images/I/B1mEhjGJ2nL._CLa%7C2140%2C2000%7CB1K6o8Iw4wL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_SX679_.png"
+      ],
+      "rating": 5,
+      "reviewCount": 100,
+      "badges": [],
+      "price": 33.99,
+      "dateAdded": "2026-05-23",
+      "popularity": 82,
+      "affiliateLinks": {
+        "amazon": "https://amzn.to/4v6y8w9"
+      },
+      "en": {
+        "name": "Tiny Rick Pullover Hoodie",
+        "description": "Let me out! Comfortable pullover hoodie starring the unforgettable Tiny Rick. A must-have for fans of the series, providing warmth and lots of style.",
+        "details": "<ul><li><strong>Vibrant graphic:</strong> High-resolution print of the iconic Tiny Rick from Rick and Morty.</li><li><strong>Maximum comfort:</strong> Warm cotton blend fabric, with a soft inner lining for daily wear.</li><li><strong>Practical design:</strong> Adjustable drawstring hood and spacious front kangaroo-style pocket.</li><li><strong>High durability:</strong> Reinforced seams and a wash-resistant print.</li><li><strong>Official license:</strong> Authentic Rick and Morty apparel for true fans.</li></ul>",
+        "priceDisplay": "Check price on Amazon",
+        "btnText": "View on Amazon"
+      },
+      "es": {
+        "name": "Sudadera con Capucha Tiny Rick",
+        "description": "¡Let me out! Cómoda sudadera con capucha protagonizada por el inolvidable Tiny Rick. Un imprescindible para fans de la serie, brindando abrigo y mucho estilo.",
+        "details": "<ul><li><strong>Gráfico vibrante:</strong> Impresión de alta resolución del icónico Tiny Rick de Rick and Morty.</li><li><strong>Máximo confort:</strong> Tejido de mezcla de algodón cálido, con forro interior suave para el uso diario.</li><li><strong>Diseño práctico:</strong> Capucha ajustable con cordón y amplio bolsillo delantero estilo canguro.</li><li><strong>Gran durabilidad:</strong> Costuras reforzadas y un estampado resistente a los lavados.</li><li><strong>Licencia oficial:</strong> Ropa auténtica de Rick and Morty para los verdaderos seguidores.</li></ul>",
+        "priceDisplay": "Ver precio en Amazon",
+        "btnText": "Comprar en Amazon"
+      }
+    }
+  ]
+}
