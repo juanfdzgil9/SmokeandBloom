@@ -65,9 +65,11 @@
 .navbar__hamburger.open span:nth-child(2) { opacity: 0; }
 .navbar__hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 
-/* Mobile menu */
 .navbar__mobile-menu {
-  display: none; position: fixed; inset: 0; z-index: 105;
+  display: none; position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh; height: 100dvh;
+  z-index: 105;
   background: var(--surface);
   flex-direction: column; align-items: center; justify-content: center; gap: var(--space-4);
 }
