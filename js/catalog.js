@@ -352,17 +352,23 @@ window.renderModalImages = function() {
 };
 
 window.nextModalImage = function() {
+  if (currentModalImages.length <= 1) return;
   if (currentModalImageIndex < currentModalImages.length - 1) {
     currentModalImageIndex++;
-    updateModalCarousel();
+  } else {
+    currentModalImageIndex = 0; // Loop to beginning
   }
+  updateModalCarousel();
 };
 
 window.prevModalImage = function() {
+  if (currentModalImages.length <= 1) return;
   if (currentModalImageIndex > 0) {
     currentModalImageIndex--;
-    updateModalCarousel();
+  } else {
+    currentModalImageIndex = currentModalImages.length - 1; // Loop to end
   }
+  updateModalCarousel();
 };
 
 window.updateModalCarousel = function() {
@@ -370,9 +376,9 @@ window.updateModalCarousel = function() {
   track.style.transform = `translateX(-${currentModalImageIndex * 100}%)`;
   track.querySelectorAll('.modal-gallery__img').forEach(img => img.classList.remove('zoomed'));
   
-  // Fade arrows if at boundaries
+  // No opacity fading needed since it loops now
   const prevBtn = document.querySelector('.modal-nav--prev');
   const nextBtn = document.querySelector('.modal-nav--next');
-  if (prevBtn) prevBtn.style.opacity = currentModalImageIndex === 0 ? '0.3' : '1';
-  if (nextBtn) nextBtn.style.opacity = currentModalImageIndex === currentModalImages.length - 1 ? '0.3' : '1';
+  if (prevBtn) prevBtn.style.opacity = '1';
+  if (nextBtn) nextBtn.style.opacity = '1';
 };
