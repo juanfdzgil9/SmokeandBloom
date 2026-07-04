@@ -122,3 +122,42 @@ function renderStars(rating, count) {
   html += `<span class="product-card__review-count">(${count})</span>`;
   return html;
 }
+// SEARCH MODAL LOGIC
+document.addEventListener("DOMContentLoaded", () => {
+  const searchIcons = document.querySelectorAll('.navbar__search');
+  const searchModal = document.getElementById('searchModal');
+  const searchModalClose = document.getElementById('searchModalClose');
+  const searchModalBackdrop = document.getElementById('searchModalBackdrop');
+  const searchInput = document.getElementById('searchInput');
+
+  function openSearch() {
+    if(searchModal) {
+      searchModal.classList.add('search-modal--open');
+      setTimeout(() => searchInput && searchInput.focus(), 100);
+    }
+  }
+
+  function closeSearch() {
+    if(searchModal) searchModal.classList.remove('search-modal--open');
+  }
+
+  searchIcons.forEach(icon => {
+    icon.style.cursor = 'pointer';
+    icon.addEventListener('click', openSearch);
+  });
+
+  if (searchModalClose) searchModalClose.addEventListener('click', closeSearch);
+  if (searchModalBackdrop) searchModalBackdrop.addEventListener('click', closeSearch);
+
+  if (searchInput) {
+    searchInput.addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        const query = searchInput.value.trim();
+        if (query) {
+          window.location.href = `tienda.html?search=${encodeURIComponent(query)}`;
+        }
+      }
+    });
+  }
+});

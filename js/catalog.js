@@ -6,7 +6,8 @@ const filterState = {
   subCategory: 'all', // grinders, trays, etc.
   sort: 'pop', 
   minPrice: null,
-  maxPrice: null
+  maxPrice: null,
+  searchQuery: ''
 };
 
 async function loadProducts() {
@@ -23,6 +24,16 @@ async function loadProducts() {
       allProducts = data.products.filter(p => p.category === pageCategory);
     } else {
       allProducts = data.products; // All products for the Shop page
+    }
+    
+    // Check URL for search query
+    const params = new URLSearchParams(window.location.search);
+    if (params.has('search')) {
+      filterState.searchQuery = params.get('search').toLowerCase();
+      
+      // Attempt to populate the search input visually if it exists
+      const searchInput = document.getElementById('searchInput');
+      if (searchInput) searchInput.value = params.get('search');
     }
     
     filteredProducts = [...allProducts];
@@ -132,6 +143,15 @@ function renderGrid() {
 function applyFilters() {
   // 1. Filtrar
   filteredProducts = allProducts.filter(p => {
+    // Search filter
+    if (filterState.searchQuery) {
+      const query = filterState.searchQuery;
+      const content = p[currentLang] || p.en;
+      const matchesName = content.name.toLowerCase().includes(query);
+      const matchesDesc = content.description && content.description.toLowerCase().includes(query);
+      if (!matchesName && !matchesDesc) return false;
+    }
+
     // Main Category filter (if used on the global shop page)
     if (filterState.mainCategory !== 'all' && p.category !== filterState.mainCategory) return false;
     
