@@ -41,7 +41,7 @@ function renderGrid() {
     return;
   }
 
-  grid.innerHTML = filteredProducts.map(p => {
+  const productsHtml = filteredProducts.map(p => {
     const content = p[currentLang] || p.en; // fallback to English if missing translation
     let badgeHTML = '';
     
@@ -84,6 +84,49 @@ function renderGrid() {
       </div>
     `;
   }).join('');
+  
+  grid.innerHTML = productsHtml;
+
+  // SEO: Generate JSON-LD Structured Data
+  let oldScript = document.getElementById('seo-structured-data');
+  if (oldScript) oldScript.remove();
+
+  const schemaItems = filteredProducts.map(p => {
+    const content = p[currentLang] || p.en;
+    return {
+      "@type": "Product",
+      "name": content.name,
+      "image": p.images || [p.image],
+      "description": content.description || content.name,
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": p.rating.toString(),
+        "reviewCount": p.reviewCount.toString()
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": (p.price || 0).toString(),
+        "availability": "https://schema.org/InStock"
+      }
+    };
+  });
+
+  if (schemaItems.length > 0) {
+    const script = document.createElement('script');
+    script.id = 'seo-structured-data';
+    script.type = 'application/ld+json';
+    script.text = JSON.stringify({
+      "@context": "https://schema.org/",
+      "@type": "ItemList",
+      "itemListElement": schemaItems.map((item, i) => ({
+        "@type": "ListItem",
+        "position": i + 1,
+        "item": item
+      }))
+    });
+    document.head.appendChild(script);
+  }
 }
 
 function applyFilters() {
