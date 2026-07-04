@@ -477,6 +477,7 @@ body.no-scroll .navbar { background: var(--surface); }
   background: rgba(255,255,255,0.8); border: none; border-radius: 50%;
   width: 40px; height: 40px; display: flex; align-items: center; justify-content: center;
   cursor: pointer; box-shadow: var(--shadow-sm); transition: background 0.2s; color: var(--primary);
+  z-index: 10;
 }
 .modal-nav:hover { background: #fff; }
 .modal-nav--prev { left: 16px; }

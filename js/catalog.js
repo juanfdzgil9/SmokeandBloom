@@ -336,6 +336,18 @@ window.renderModalImages = function() {
       <img class="modal-gallery__img" src="${img}" alt="Product Image" />
     </div>
   `).join('');
+  
+  // Hide arrows if there's only 1 image
+  const prevBtn = document.querySelector('.modal-nav--prev');
+  const nextBtn = document.querySelector('.modal-nav--next');
+  if (currentModalImages.length <= 1) {
+    if(prevBtn) prevBtn.style.display = 'none';
+    if(nextBtn) nextBtn.style.display = 'none';
+  } else {
+    if(prevBtn) prevBtn.style.display = 'flex';
+    if(nextBtn) nextBtn.style.display = 'flex';
+  }
+  
   updateModalCarousel();
 };
 
@@ -357,4 +369,10 @@ window.updateModalCarousel = function() {
   const track = document.getElementById('modalTrack');
   track.style.transform = `translateX(-${currentModalImageIndex * 100}%)`;
   track.querySelectorAll('.modal-gallery__img').forEach(img => img.classList.remove('zoomed'));
+  
+  // Fade arrows if at boundaries
+  const prevBtn = document.querySelector('.modal-nav--prev');
+  const nextBtn = document.querySelector('.modal-nav--next');
+  if (prevBtn) prevBtn.style.opacity = currentModalImageIndex === 0 ? '0.3' : '1';
+  if (nextBtn) nextBtn.style.opacity = currentModalImageIndex === currentModalImages.length - 1 ? '0.3' : '1';
 };
