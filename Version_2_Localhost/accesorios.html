@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta name="description" content="Accesorios premium cuidadosamente seleccionados. Molinillos, bandejas y más para tu ritual botánico."/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://smokebloom.store/accesorios"/>
+  <meta property="og:title" content="Accesorios — Smoke & Bloom"/>
+  <meta property="og:description" content="Accesorios premium cuidadosamente seleccionados. Molinillos, bandejas y más para tu ritual botánico."/>
+  <meta property="og:image" content="https://smokebloom.store/assets/images/og-image.jpg"/>
+  
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:url" content="https://smokebloom.store/accesorios"/>
+  <meta name="twitter:title" content="Accesorios — Smoke & Bloom"/>
+  <meta name="twitter:description" content="Accesorios premium cuidadosamente seleccionados. Molinillos, bandejas y más para tu ritual botánico."/>
+  <meta name="twitter:image" content="https://smokebloom.store/assets/images/og-image.jpg"/>
+
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title data-i18n="page.acc.title">Accesorios Premium — Smoke &amp; Bloom</title>
+  <link rel="stylesheet" href="css/index.css?v=3"/>
+  <link rel="stylesheet" href="css/components.css?v=3"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+  <style>.material-symbols-outlined{font-variation-settings:'FILL' 0,'wght' 400,'GRAD' 0,'opsz' 24}</style>
+  <link rel="canonical" href="https://smokebloom.store/accesorios"/>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar" id="navbar">
+    <div class="navbar__inner">
+    <!-- Links Izquierda -->
+    <div class="navbar__links navbar__links--left">
+      <a class="navbar__link " href="/" data-i18n="nav.home">Inicio</a>
+      <div class="nav-dropdown">
+        <a class="navbar__link " href="tienda" data-i18n="nav.shop">Tienda ▾</a>
+        <div class="nav-dropdown__menu">
+          <a href="accesorios" class="active" data-i18n="nav.accessories">Accesorios</a>
+          <a href="ropa" class="" data-i18n="nav.apparel">Ropa</a>
+          <a href="lifestyle" class="" data-i18n="nav.lifestyle">Lifestyle</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Logo Centro -->
+    <a class="navbar__brand" href="/">
+      <img src="assets/images/logo.jpg" alt="Smoke & Bloom Logo">
+    </a>
+
+    <!-- Links Derecha + Acciones -->
+    <div class="navbar__links navbar__links--right">
+      <a class="navbar__link " href="guias" data-i18n="nav.guides">Guías</a>
+      <a class="navbar__link " href="sobre-nosotros" data-i18n="nav.about">Nosotros</a></div>
+      
+      <div class="navbar__actions" style="margin-left: auto;">
+        <span class="material-symbols-outlined navbar__search">search</span>
+        <span class="navbar__lang" style="cursor:pointer; font-size:0.75rem; font-weight:600; display:none;">ES/EN</span>
+        <div class="navbar__hamburger" id="hamburger"><span></span><span></span><span></span></div>
+      
+    </div>
+  </div>
+  <div class="navbar__mobile-menu" id="mobileMenu">
+    <a class="navbar__link " href="/" data-i18n="nav.home">Inicio</a>
+    <a class="navbar__link " href="tienda" data-i18n="nav.shop">Tienda</a>
+    <div class="mobile-sublinks">
+      <a class="navbar__link navbar__link--sub active" href="accesorios" data-i18n="nav.accessories">Accesorios</a>
+      <a class="navbar__link navbar__link--sub " href="ropa" data-i18n="nav.apparel">Ropa</a>
+      <a class="navbar__link navbar__link--sub " href="lifestyle" data-i18n="nav.lifestyle">Lifestyle</a>
+    </div>
+    <a class="navbar__link " href="guias" data-i18n="nav.guides">Guías</a>
+    <a class="navbar__link " href="sobre-nosotros" data-i18n="nav.about">Nosotros</a>
+  </div>
+</nav>
+
+<!-- HEADER -->
+<header class="section--compact" style="padding-top:var(--space-10);padding-bottom:var(--space-6)">
+  <div class="container text-center">
+    <h1 class="display-lg" style="margin-bottom:var(--space-2)" data-i18n="page.acc.title">Accesorios Premium</h1>
+    <p class="body-lg text-muted" style="max-width:640px;margin:0 auto" data-i18n="page.acc.subtitle">Eleva tu ritual con nuestra selección curada de accesorios de diseño. Calidad funcional que se integra armoniosamente en tu estilo de vida.</p>
+  </div>
+</header>
+
+<!-- AFFILIATE DISCLAIMER -->
+<div class="container" style="margin-bottom:var(--space-4)">
+  <div class="affiliate-banner">
+    <span class="material-symbols-outlined affiliate-banner__icon">info</span>
+    <p class="affiliate-banner__text" data-i18n="affiliate.notice"><strong>Aviso de Transparencia:</strong> Smoke &amp; Bloom participa en programas de afiliados. Las compras a través de nuestros enlaces pueden generarnos una comisión, sin costo adicional para ti.</p>
+  </div>
+</div>
+
+<!-- CATALOG -->
+<section class="section--compact" style="padding-bottom:var(--section-padding)">
+  <div class="container">
+    <div class="catalog-layout">
+      <!-- Sidebar Filters -->
+      <aside class="sidebar">
+        <!-- Sub Categories -->
+        <div class="sidebar__section">
+          <h3 class="sidebar__title" data-i18n="filter.cat.title">Tipo de Producto</h3>
+          <div class="sidebar__checkbox-group">
+            <label class="sidebar__label"><input type="radio" name="subCatFilter" value="all" checked/> <span data-i18n="filter.cat.all">Todos</span></label>
+            <label class="sidebar__label"><input type="radio" name="subCatFilter" value="grinders"/> <span data-i18n="filter.cat.grinders">Grinders</span></label>
+            <label class="sidebar__label"><input type="radio" name="subCatFilter" value="trays"/> <span data-i18n="filter.cat.trays">Bandejas</span></label>
+            <label class="sidebar__label"><input type="radio" name="subCatFilter" value="papers"/> <span data-i18n="filter.cat.papers">Papel y Filtros</span></label>
+            <label class="sidebar__label"><input type="radio" name="subCatFilter" value="storage"/> <span data-i18n="filter.cat.storage">Almacenamiento UV</span></label>
+            <label class="sidebar__label"><input type="radio" name="subCatFilter" value="lighters"/> <span data-i18n="filter.cat.lighters">Encendedores</span></label>
+          </div>
+        </div>
+        
+        <!-- Sort -->
+        <div class="sidebar__section">
+          <h3 class="sidebar__title" data-i18n="filter.sort.title">Ordenar Por</h3>
+          <div class="sidebar__chips">
+            <span class="chip chip--active" data-sort="pop" data-i18n="sort.pop">Popularidad</span>
+            <span class="chip chip--default" data-sort="price_asc" data-i18n="sort.price_asc">Precio: Menor</span>
+            <span class="chip chip--default" data-sort="new" data-i18n="sort.new">Nuevos</span>
+          </div>
+        </div>
+        
+        <!-- Price -->
+        <div class="sidebar__section">
+          <h3 class="sidebar__title" data-i18n="filter.price.title">Precio</h3>
+          <div class="sidebar__price-range">
+            <input id="priceMin" class="sidebar__input" type="number" min="0" placeholder="Min"/>
+            <span class="text-muted">-</span>
+            <input id="priceMax" class="sidebar__input" type="number" min="0" placeholder="Max"/>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Dynamic Product Grid -->
+      <div>
+        <div class="grid-3" id="productGrid" data-category="accessories">
+          <!-- Products injected by catalog.js -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer__inner">
+    <div>
+      <div class="footer__brand-title">Smoke &amp; Bloom</div>
+      <p class="footer__brand-desc" data-i18n="footer.desc">Dedicados a la curaduría de una vida intencional. Smoke &amp; Bloom es un catálogo de estilo de vida y no vende ni distribuye cannabis ni sustancias reguladas.</p>
+    </div>
+    <div>
+      <h4 class="footer__col-title" data-i18n="footer.legal">Legal</h4>
+      <a class="footer__link" href="politica-privacidad" data-i18n="footer.privacy">Privacidad</a>
+      <a class="footer__link" href="aviso-afiliados" data-i18n="footer.affiliate">Aviso Afiliados</a>
+      <a class="footer__link" href="terminos" data-i18n="footer.terms">Términos</a>
+    </div>
+    <div>
+      <h4 class="footer__col-title" data-i18n="footer.support">Soporte</h4>
+      <a class="footer__link" href="sobre-nosotros" data-i18n="footer.about">Sobre Nosotros</a>
+      <a class="footer__link" href="#" data-i18n="footer.contact">Contacto</a>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <span data-i18n="footer.rights">&copy; 2026 Smoke &amp; Bloom. Todos los derechos reservados.</span>
+    <span data-i18n="footer.made">Hecho con 🌿 intención</span>
+  </div>
+</footer>
+
+<script src="js/main.js?v=3"></script>
+<script src="js/i18n.js"></script>
+<script src="js/catalog.js?v=3"></script>
+
+<!-- SEARCH MODAL -->
+<div class="search-modal" id="searchModal">
+  <div class="search-modal__backdrop" id="searchModalBackdrop"></div>
+  <div class="search-modal__content">
+    <div class="search-modal__header">
+      <span class="material-symbols-outlined search-modal__icon">search</span>
+      <input type="text" id="searchInput" class="search-modal__input" placeholder="Buscar productos... (Ej. difusor)"/>
+      <span class="material-symbols-outlined search-modal__close" id="searchModalClose">close</span>
+    </div>
+  </div>
+</div>
+</body>
+</html>

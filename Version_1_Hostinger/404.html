@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>404 - Página no encontrada | Smoke & Bloom</title>
+  <meta name="description" content="Oops, parece que este enlace se esfumó en el humo. Regresa a Smoke & Bloom."/>
+  <link rel="canonical" href="https://smokebloom.store/404.html"/>
+  <link rel="stylesheet" href="css/index.css"/>
+  <link rel="stylesheet" href="css/components.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+  <style>
+    .material-symbols-outlined{font-variation-settings:'FILL' 0,'wght' 400,'GRAD' 0,'opsz' 24}
+    .error-section {
+      min-height: 80vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: var(--space-4);
+    }
+    .error-code {
+      font-size: 8rem;
+      font-weight: 800;
+      color: var(--color-primary);
+      margin-bottom: var(--space-2);
+      line-height: 1;
+      text-shadow: 0 10px 30px rgba(116, 161, 142, 0.3);
+      animation: float 6s ease-in-out infinite;
+    }
+    .error-title {
+      font-size: 2rem;
+      margin-bottom: var(--space-3);
+      font-weight: 600;
+    }
+    .error-desc {
+      color: var(--on-surface-variant);
+      max-width: 500px;
+      margin: 0 auto var(--space-4);
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar" id="navbar">
+  <div class="navbar__inner">
+    <a class="navbar__brand" href="index.html">Smoke &amp; Bloom</a>
+    <div class="navbar__links">
+      <a class="navbar__link" href="index.html" data-i18n="nav.home">Inicio</a>
+      <a class="navbar__link" href="tienda.html" data-i18n="nav.shop">Tienda</a>
+      <a class="navbar__link" href="accesorios.html" data-i18n="nav.accessories">Accesorios</a>
+      <a class="navbar__link" href="ropa.html" data-i18n="nav.apparel">Ropa</a>
+      <a class="navbar__link" href="lifestyle.html" data-i18n="nav.lifestyle">Lifestyle</a>
+      <a class="navbar__link" href="guias.html" data-i18n="nav.guides">Guías</a>
+      <a class="navbar__link" href="sobre-nosotros.html" data-i18n="nav.about">Nosotros</a>
+    </div>
+    <div class="navbar__actions">
+      <span class="material-symbols-outlined navbar__search">search</span>
+      <span class="navbar__lang" style="cursor:pointer; font-size:0.75rem; font-weight:600;">ES/EN</span>
+      <div class="navbar__hamburger" id="hamburger"><span></span><span></span><span></span></div>
+    </div>
+  </div>
+  <div class="navbar__mobile-menu" id="mobileMenu">
+    <a class="navbar__link" href="index.html" data-i18n="nav.home">Inicio</a>
+    <a class="navbar__link" href="tienda.html" data-i18n="nav.shop">Tienda</a>
+    <a class="navbar__link" href="accesorios.html" data-i18n="nav.accessories">Accesorios</a>
+    <a class="navbar__link" href="ropa.html" data-i18n="nav.apparel">Ropa</a>
+    <a class="navbar__link" href="lifestyle.html" data-i18n="nav.lifestyle">Lifestyle</a>
+    <a class="navbar__link" href="guias.html" data-i18n="nav.guides">Guías</a>
+    <a class="navbar__link" href="sobre-nosotros.html" data-i18n="nav.about">Nosotros</a>
+  </div>
+</nav>
+
+<!-- 404 CONTENT -->
+<section class="error-section">
+  <div class="error-code">404</div>
+  <h1 class="error-title">¡Oops! Este enlace se esfumó en el humo...</h1>
+  <p class="error-desc">Parece que la página que estás buscando desapareció o nunca existió. No te preocupes, mantén la calma y continúa con el ritual.</p>
+  <a href="index.html" class="btn btn--primary btn--lg">Regresa a la página principal</a>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer__inner">
+    <div>
+      <div class="footer__brand-title">Smoke &amp; Bloom</div>
+      <p class="footer__brand-desc" data-i18n="footer.desc">Dedicados a la curaduría de una vida intencional. Smoke &amp; Bloom es un catálogo de estilo de vida y no vende ni distribuye cannabis ni sustancias reguladas.</p>
+    </div>
+    <div>
+      <h4 class="footer__col-title" data-i18n="footer.legal">Legal</h4>
+      <a class="footer__link" href="politica-privacidad.html" data-i18n="footer.privacy">Privacidad</a>
+      <a class="footer__link" href="aviso-afiliados.html" data-i18n="footer.affiliate">Aviso Afiliados</a>
+      <a class="footer__link" href="terminos.html" data-i18n="footer.terms">Términos</a>
+    </div>
+    <div>
+      <h4 class="footer__col-title" data-i18n="footer.support">Soporte</h4>
+      <a class="footer__link" href="sobre-nosotros.html" data-i18n="footer.about">Sobre Nosotros</a>
+      <a class="footer__link" href="#" data-i18n="footer.contact">Contacto</a>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <span data-i18n="footer.rights">&copy; 2026 Smoke &amp; Bloom. Todos los derechos reservados.</span>
+    <span data-i18n="footer.made">Hecho con 🌿 intención</span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/i18n.js"></script>
+</body>
+</html>
